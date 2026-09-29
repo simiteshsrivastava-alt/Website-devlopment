@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            position: relative;
+        }
+        .safari-slide {
+            height: 200px; text-align: center; padding-top: 75px; font-size: 1.8rem; color: white;
+        }
+        .slide-forest { background: darkgreen;}
+        .slide-ocean { background: steelblue;}
+        .slide-desert { background: orange;}
+        #forest { background: honeydew;}
+        #ocean { background: aliceblue;}
+        #desert {background: lightyellow;}
+    </style>
+</head>
+<body data-spy="scroll" data-target="#safariNav" data-offset="60">
+
+    <div id="safariCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#safariCarousel" data-slide-to="0" class="active " ></li>
+            <li data-target="#safariCarousel" data-slide-to="1"></li>
+            <li data-target="#safariCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+        <div class="carousel-item active safari-slide slide-forest"> 🌿 Forest Safari</div>
+        <div class="carousel-item safari-slide slide-ocean"> 🌊 Ocean Safari</div>
+        <div class="carousel-item safari-slide slide-desert"> 🏜️ Desert Safari</div>
+        </div>
+        <a class="carousel-control-prev" href="#safariCarousel" data-slide="prev"></a>
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+     <a class="carousel-control-next" href="#safariCarousel" data-slide="next"></a>
+        <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
+    <nav id="safariNav" class="navbar"  navbar-expand-sm  bg-dark sticky-top></nav>
+    <span class="navbar-brand"> 🦁 Safari Guide</span>
+    <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="#forest">🌿 Forest</a></li>
+    <li class="nav-item"><a class="nav-link" href="#ocean">🌊 Ocean</a></li>
+    <li class="nav-item"><a class="nav-link" href="#desert">🏜️ Desert</a></li>
+  </ul>
+</nav>
+<div class="container">
+    <div id="forest" class="section"></div>
+    <h2>🌿 Forest Safari</h2>
+    <p>Explore tall treesand discover animals like tiger, elephant, lion and monkeys!</p>
+</div>
+<div id="ocean" class="section"></div>
+    <h2>🌊 Ocean Safari</h2>
+    <p>Explore marine fauna and flora!</p>
+</div>
+<div id="desert" class="section"></div>
+    <h2>🏜️ Desert Safar</h2>
+    <p>Explore the depths of sand full desert!</p>
+</div> 
+</div>
+
+
+    
+</body>
+</html>
